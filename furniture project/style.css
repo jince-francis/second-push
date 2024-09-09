@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair", serif;
+}
+
+:root{
+    --x: rgb(66,8,8)
+}
+#main{
+    background-image: url("./images/bg2.jpg");
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+#logo{
+    width: 230px;
+    height: 100px;
+}
+
+#button,#view-btn1,#view-btn2,#view-btn3{
+    background-color: var(--x);
+    color: white;
+}
+#button:hover,#view-btn1:hover,#view-btn2:hover,#view-btn3:hover{
+    background-color: rgb(255, 255, 255);
+    color: var(--x);
+    border-color: var(--x);
+}
+
+li i{
+    color: rgb(79, 77, 77);
+}
+
+@media(max-width:992px){
+    .nav-item i{
+        display: none;
+    }
+}
+
+#backg{
+    background-color: rgb(0, 0, 0,.7);
+    width: 100%;
+    /* height: 100vh; */
+}
+
+#welcome{
+    margin-top: 22%;
+    margin-left: 5%;
+    color: white;
+}
+#welcome h4{
+    font-size: 30px;
+}
+#welcome h1{
+    font-size: 100px;
+}
+#welcome button{
+    color: white;
+    border-color: white;
+}
+
+@media(max-width:600px){
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 50px;
+    }
+}
+
+#work{
+    background-image: url("./images/white-painted-wall-texture-background_759200-2542.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 6%;
+    /* margin-top: 8%; */
+}
+
+#view-btn1,#view-btn2,#view-btn3,#viewbtn3,#viewbtn5{
+    
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--x);
+    border-color: var(--x);
+}
+#view-btn1:hover,#view-btn2:hover,#view-btn3:hover,#viewbtn3:hover,#viewbtn5:hover{
+    background-color: var(--x);
+    color: white;
+}
+
+#about{
+    background-color: rgb(194, 191, 191);
+    padding-top: 8%;
+}
+#about h1{
+    color: var(--x);
+}
+#hr{
+    background-color: var(--x);
+    width: 200px;
+    height: 7px;
+}
+#about p{
+    text-align: justify;
+}
+#aboutdiv{
+    border: 7px solid var(--x);
+    width: 90%;
+    height: 490px;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+#div1{
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
+    width: 50%;
+    height: 6rem;
+    
+}
+#div2,#div3{
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
+    width: 70%;
+    height: 5rem;
+}
